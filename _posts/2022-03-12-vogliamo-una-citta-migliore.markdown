@@ -11,7 +11,7 @@ Dove ci sia attenzione per il TERRITORIO.
 <br>
 Dove i GIOVANI abbiano i loro spazi.
 <br>
-Dove la MOBIITÀ renda vivibili strade e piazze.
+Dove la MOBILITÀ renda vivibili strade e piazze.
 <br>
 Dove la TERZA ETÀ non sia dimenticata.
 <br>
