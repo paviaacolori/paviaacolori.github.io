@@ -2,10 +2,10 @@ title: Pavia a Colori
 email: paviaacolori@gmail.com
 description: >-
   Vogliamo una città migliore
-baseurl: ""
+baseurl: "/"
 url: "http://paviaacolori.it"
 
-theme: jekyll-theme-so-simple
+remote_theme: "mmistakes/so-simple-theme@3.2.0" 
 logo: "/assets/images/logo.jpg"
 plugins:
   - jekyll-feed
