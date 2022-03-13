@@ -16,4 +16,4 @@ footer_links:
     icon:  fab fa-facebook-square
   - title: Statuto
     url: /statuto.pdf
-    icon: fas fa-book
+    icon: fas fa-book  

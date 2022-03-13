@@ -24,4 +24,4 @@ inclusiva, accogliente, attenta ai bisogni di tutti i suoi cittadini, anche dei 
 alle tematiche socio-ambientali; e promuovere la partecipazione attiva dei cittadini alla vita della comunità ed alle scelte
 politiche che ne stanno alla base.
 
-PER FARE TUTTO QUESTO ABBIAMO BISOGNO ANCHE DEL TUO SOSTEGNO!
+[PER FARE TUTTO QUESTO ABBIAMO BISOGNO ANCHE DEL TUO SOSTEGNO!](https://forms.gle/tzyXHyoxpgdNL1WU7)
