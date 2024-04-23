@@ -1,0 +1,21 @@
+title: Pavia a Colori
+lang: it
+email: paviaacolori@gmail.com
+description: >-
+  Siamo una lista civica di candidati alle elezioni comunali di Pavia dell'8/9 giugno. Seguici per non perderti i nostri eventi e le nostre proposte 🌈
+baseurl: ""
+url: ""
+show_excerpts: true
+facebook_username: "paviaacolori"
+instagram_username: "paviaacolori"
+header_pages:
+  - candidati.markdown
+  - sostienici.markdown
+theme: minima
+plugins:
+  - jekyll-feed
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true

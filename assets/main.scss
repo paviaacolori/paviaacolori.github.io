@@ -1,0 +1,99 @@
+---
+---
+
+@import "minima";
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+article {
+  clear: both;
+}
+div.quote {
+	font-family: 'Special Elite', cursive;
+  clear: both;
+  font-weight: 100;
+	font-size: 2rem;
+	line-height: 1.4;
+	position: relative;
+	padding: .5rem;
+}
+
+div.quote:before,
+div.quote:after {
+	position: absolute;
+  color: #000;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+div.quote:before {
+	content: '“';
+	left: -3rem;
+	top: -2rem;
+}
+
+div.quote:after {
+	content: '”';
+	right: -5rem;
+	bottom: 1rem;
+}
+
+article.candidato {
+	display: grid;
+	grid-template-columns: 200px auto;
+	grid-template-rows: 350px auto;
+
+	picture {
+		width: 200px;
+		grid-column-start: 1;
+		grid-row-start: 1;
+	}
+
+	h3 {
+		font-size: 2em;
+		font-weight: bold;
+	}
+
+	.links {
+		padding-bottom: .5em;
+		margin-bottom: 1em;
+		line-height: 2em;
+	}
+
+	.info {
+		grid-column-start: 2;
+		grid-row-start: 1;
+		padding: 0 1em;
+	}
+
+	.quote {
+		margin-top: 1em;
+		padding: 1em;
+		grid-column-start: span 2;
+		grid-row-start: 2;
+	}
+}
+
+ul.candidati {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	li {
+		list-style: none;
+		grid-column-start: auto;
+		grid-row-start: auto;
+		text-align: center;
+		margin: 1em;
+		img {
+			width: 100px;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	ul.candidati {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
