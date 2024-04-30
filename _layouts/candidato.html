@@ -32,5 +32,8 @@ layout: default
       <a href="/certificato/{{ slug }}.pdf">Certificato Penale</a>
     </div>
   </div>
+  {%- assign quote = content | size -%}
+  {%- if quote > 1 -%}
   <div class="quote">{{ content }}</div>
+  {%- endif -%}
 </article>
