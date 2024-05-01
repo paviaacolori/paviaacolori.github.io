@@ -15,6 +15,10 @@ layout: default
       <a href="https://instagram.com/{{ page.instagram_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg> <span class="username">{{ page.instagram_username| escape }}</span></a>
       <br>
       {%- endif -%}    
+      {%- if page.facebook_id -%}
+      <a href="https://www.facebook.com/profile.php?id={{ page.facebook_id }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg> <span class="username">{{ page.facebook_username| escape }}</span></a>
+      <br>
+      {%- endif -%}
       {%- if page.facebook_username -%}
       <a href="https://www.facebook.com/{{ page.facebook_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg> <span class="username">{{ page.facebook_username| escape }}</span></a>
       <br>
