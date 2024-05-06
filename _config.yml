@@ -10,6 +10,7 @@ facebook_username: "paviaacolori"
 instagram_username: "paviaacolori"
 youtube_username: "@Paviaacolori"
 header_pages:
+  - programma.html
   - candidati.markdown
   - sostienici.markdown
 theme: minima

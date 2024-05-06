@@ -1,8 +1,8 @@
 ---
 ---
-
 @import "minima";
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
 
 article {
   clear: both;
@@ -98,11 +98,18 @@ ul.candidati {
 	}
 }
 
+h1, h2, h3 {
+	font-family: "Freeman", sans-serif;
+}
+
 .programma h2 {
 	font-weight: bold;
+	color: rgb(205, 10, 32);
 }
 
 .programma h3 {
 	margin-top: 1em;
 	border-bottom: 1px solid #aaa;
+	color: rgb(97, 174, 208);
+	font-weight: bold;
 }
