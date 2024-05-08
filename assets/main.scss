@@ -113,12 +113,19 @@ a:hover {
 
 .programma h2 {
 	font-weight: bold;
-	color: rgb(205, 10, 32);
+	color: rgb(117, 19, 95);
 }
 
 .programma h3 {
 	margin-top: 1em;
 	border-bottom: 1px solid #aaa;
-	color: rgb(97, 174, 208);
 	font-weight: bold;
+	color: rgb(205, 10, 32);
+}
+
+div.picture {
+	padding: 1em;
+	img {
+		width: 100%;
+	}
 }
