@@ -4,6 +4,14 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 @import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
 
+.site-title img {
+   width: 150px;
+   margin: 0.2em;
+}
+
+img.banner {
+   width: 100%;
+}
 article {
    clear: both;
 }
@@ -83,11 +91,12 @@ ul.candidati {
 		grid-column-start: auto;
 		grid-row-start: auto;
 		text-align: center;
-		margin: 1em;
+		margin: 0em;
+		padding: 0;
 		img {
-			width: 100px;
+			width: 100%;
 			display: block;
-			margin: 0 auto;
+			margin: 0;
 		}
 	}
 }
@@ -128,4 +137,25 @@ div.picture {
 	img {
 		width: 100%;
 	}
+}
+
+.candidato-tooltip {
+   display: none;
+   width: max-content;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: #222;
+   color: white;
+   font-weight: bold;
+   padding: 5px;
+   border-radius: 4px;
+   font-size: 90%;
+   .arrow {
+     position: absolute;
+     background: #222;
+     width: 8px;
+     height: 8px;
+     transform: rotate(45deg);
+   }
 }
