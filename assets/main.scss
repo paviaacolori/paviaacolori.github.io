@@ -5,12 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
 
 article {
-  clear: both;
+   clear: both;
 }
 div.quote {
-	font-family: 'Special Elite', cursive;
-  clear: both;
-  font-weight: 100;
+   font-family: 'Special Elite', cursive;
+   clear: both;
+   font-weight: 100;
 	font-size: 2rem;
 	line-height: 1.4;
 	position: relative;
@@ -20,7 +20,7 @@ div.quote {
 div.quote:before,
 div.quote:after {
 	position: absolute;
-  color: #000;
+   color: #000;
 	font-size: 8rem;
 	width: 4rem;
 	height: 4rem;
